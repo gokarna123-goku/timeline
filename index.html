@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Custom css -->
     <link rel="stylesheet" href="timeline1.css">
     <!-- Title -->
@@ -11,6 +13,160 @@
 </head>
 
 <body>
+    <div class="main">
+        <div class="timeline_container">
+            <!-- vertical indicator -->
+            <div class="indicator_line"></div>
+            <!-- first timeline box -->
+            <div class="timeline_box box-1" data-aos="fade-right" data-aos-offset="300" data-aos-duration="700"
+                data-aos-easing="ease-in-sine">
+                <div class="timeline_card">
+                    <!-- indicator pointer -->
+                    <div class="icon">
+                        <div class="circle"></div>
+                    </div>
+                    <!-- timeline content -->
+                    <div class="timeline_content">
+                        <div class="company_box">
+                            <h5 class="role">Sr. Full-Stack Developer</h5>
+                            <p class="company_name">G-Tech Official</p>
+                        </div>
+                        <div class="working_detail">
+                            <h6 class="type">Part-time | <span>Remote</span></h6>
+                            <p class="duration_time">
+                                2022 - Present
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="tags">
+                            <button class="tag_btn">Python</button>
+                            <button class="tag_btn">Nodejs</button>
+                            <button class="tag_btn">React</button>
+                            <button class="tag_btn">NextJs</button>
+                            <button class="tag_btn">Django</button>
+                        </div>
+                        <p class="desc">I design and develop services for customers of all sizes, specializing in
+                            creating stylish, modern websites
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- second timeline box -->
+            <div class="timeline_box box-2" data-aos="fade-left" data-aos-offset="300" data-aos-duration="700"
+                data-aos-easing="ease-in-sine">
+                <div class="timeline_card">
+                    <!-- indicator pointer -->
+                    <div class="icon">
+                        <div class="circle"></div>
+                    </div>
+                    <!-- timeline content -->
+                    <div class="timeline_content">
+                        <div class="company_box">
+                            <h5 class="role">your position</h5>
+                            <p class="company_name">company name</p>
+                        </div>
+                        <div class="working_detail">
+                            <h6 class="type">Part-time | <span>Remote</span></h6>
+                            <p class="duration_time">
+                                start date - end date
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="tags">
+                            <button class="tag_btn">Python</button>
+                            <button class="tag_btn">Nodejs</button>
+                            <button class="tag_btn">React</button>
+                            <button class="tag_btn">NextJs</button>
+                            <button class="tag_btn">Django</button>
+                        </div>
+                        <p class="desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eaque iusto rerum
+                            recusandae delectus facilis excepturi, quasi culpa eius repudiandae.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- third timeline box -->
+            <div class="timeline_box box-1" data-aos="fade-right" data-aos-offset="30" data-aos-duration="700"
+                data-aos-easing="ease-in-sine">
+                <div class="timeline_card">
+                    <!-- indicator pointer -->
+                    <div class="icon">
+                        <div class="circle"></div>
+                    </div>
+                    <!-- timeline content -->
+                    <div class="timeline_content">
+                        <div class="company_box">
+                            <h5 class="role">your position</h5>
+                            <p class="company_name">company name</p>
+                        </div>
+                        <div class="working_detail">
+                            <h6 class="type">Part-time | <span>Remote</span></h6>
+                            <p class="duration_time">
+                                start date - end date
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="tags">
+                            <button class="tag_btn">Python</button>
+                            <button class="tag_btn">Nodejs</button>
+                            <button class="tag_btn">React</button>
+                            <button class="tag_btn">NextJs</button>
+                            <button class="tag_btn">Django</button>
+                        </div>
+                        <p class="desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eaque iusto rerum
+                            recusandae delectus facilis excepturi, quasi culpa eius repudiandae.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- fourth timeline box -->
+            <div class="timeline_box box-2" data-aos="fade-left" data-aos-offset="30" data-aos-duration="700"
+                data-aos-easing="ease-in-sine">
+                <div class="timeline_card">
+                    <!-- indicator pointer -->
+                    <div class="icon">
+                        <div class="circle"></div>
+                    </div>
+                    <!-- timeline content -->
+                    <div class="timeline_content">
+                        <div class="company_box">
+                            <h5 class="role">Sr. Full-Stack Developer</h5>
+                            <p class="company_name">G-Tech Official</p>
+                        </div>
+                        <div class="working_detail">
+                            <h6 class="type">Part-time | <span>Remote</span></h6>
+                            <p class="duration_time">
+                                2022 - Present
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="tags">
+                            <button class="tag_btn">Python</button>
+                            <button class="tag_btn">Nodejs</button>
+                            <button class="tag_btn">React</button>
+                            <button class="tag_btn">NextJs</button>
+                            <button class="tag_btn">Django</button>
+                        </div>
+                        <p class="desc">I design and develop services for customers of all sizes, specializing in
+                            creating stylish, modern websites
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+    </div>
+
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- AOS init -->
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
