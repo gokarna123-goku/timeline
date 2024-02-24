@@ -3,6 +3,11 @@
 
 Welcome to the Animated Timeline project! Explore a visually engaging timeline created with HTML, CSS, and powered by the AOS animation library. This project showcases a dynamic representation of events, making it an excellent resource for presenting chronological information in an interactive way.
 
+
+## Project Preview Image
+![image](https://github.com/gokarna123-goku/timeline/assets/70308228/65522788-3425-429d-86af-e18c20462327)
+
+
 ## Key Features
 - **Responsive Design**: Enjoy a seamless experience on various devices, ensuring accessibility for all users.
 - **AOS Animation Library**: Engage your audience with smooth and eye-catching animations powered by the AOS library.
