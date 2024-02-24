@@ -20,11 +20,11 @@ Welcome to the Animated Timeline project! Explore a visually engaging timeline c
 
 
 ## Credits
-- AOS Animation Library: [Link to AOS GitHub repository](https://michalsnik.github.io/aos/)
+- AOS Animation Library: [AOS Website](https://michalsnik.github.io/aos/)
 
 
 ## Explore the Project
-Visit the live timeline: [Link to the Animated Timeline](https://timelineg.netlify.app/)
+Visit the live timeline: [Live Demo](https://timelineg.netlify.app/)
 
 ## License
 This project is licensed under the [MIT License](https://github.com/gokarna123-goku/timeline?tab=MIT-1-ov-file)
